@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  background-image: url(../img/stena-kirpich-oranzh-kladka.jpg);
+}
+
+body .drag-area {
+  border: 5px dashed white;
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(59, 59, 59, 0.5);
+}
+
+body .drag-area.active {
+  border: 5px solid white;
+}
+
+body .drag-area img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+body .drag-area .icon {
+  font-size: 100px;
+  color: white;
+}
+
+body .drag-area header {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+body .drag-area span {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  margin: 10px 0 15px 0;
+}
+
+body .drag-area button {
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background: white;
+  color: purple;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

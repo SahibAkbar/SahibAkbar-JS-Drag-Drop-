@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../img/stena-kirpich-oranzh-kladka.jpg);
+    .drag-area{
+        border: 5px dashed white;
+        height: 500px;
+        width: 700px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(59, 59, 59, 0.5);
+        &.active{
+            border: 5px solid white;
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .icon{
+            font-size: 100px;
+            color: white;
+        }
+        header{
+            font-size: 30px;
+            font-weight: 600;
+            color: white;
+        }
+        span{
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            margin: 10px 0 15px 0;
+        }
+        button{
+            padding: 10px 25px;
+            font-size: 20px;
+            font-weight: 600;
+            border: none;
+            outline: none;
+            background: white;
+            color: purple;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
